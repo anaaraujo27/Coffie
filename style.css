@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Poppins&display=swap');
+
+#735032
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #E6E3DD;
+}
+
+.itens-menu {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-escrito-menu {
+    color: #400D01;
+    font-family: Outfit;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.links-menu {
+    color: #595958;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.login-menu {
+    color: #400D01;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+
+
+.github-menu {
+    color: #400D01;
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.logo-imagem-menu {
+    width: 10%;
+    height: 10%;
+}
+
+hr {
+    border-color: #400D01;
+}
